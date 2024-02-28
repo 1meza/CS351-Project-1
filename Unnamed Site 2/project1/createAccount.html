@@ -32,15 +32,20 @@
   </div>
   <div class="container">
     <form class="needs-validation row g-3" novalidate>
+		<div class="col-12">
+        <label for="inputLogin" class="form-label">Login<span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="inputLogin" required>
+		<div class="invalid-feedback"> Enter login. </div>
+      </div>
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
+        <label for="inputEmail4" class="form-label">Email<span class="text-danger">*</span></label>
         <input type="email" class="form-control" id="inputEmail4" required>
         <div class="invalid-feedback"> Enter valid email. </div>
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
+        <label for="inputPassword4" class="form-label">Password<span class="text-danger">*</span></label>
         <input type="password" class="form-control" id="inputPassword4" required>
-        <div class="invalid-feedback"> Password is required.</div>
+        <div class="invalid-feedback"></div>
       </div>
       <div class="col-12">
         <label for="inputAddress" class="form-label">Address</label>
@@ -115,7 +120,7 @@
         <label for="inputZip" class="form-label">Zip</label>
         <input type="text" class="form-control" id="inputZip">
       </div>
-		<div class="col-6">
+		<div class="col-md-6">
         <label for="inputPhone" class="form-label">Phone #</label>
         <input type="tel" class="form-control" id="inputPhone">
       </div>
@@ -125,8 +130,21 @@
     </form>
   </div>
 </div>
-<div class="mt-5 p-4 bg-dark text-white text-center bottom-0">
-  <p>Footer</p>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mt-auto">
+    <div class="container py-5">
+	  
+	  <div class="col-md-12 d-flex justify-content-center">
+      <a href="home.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"><i class="bi bi-emoji-sunglasses"></i>
+        
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+    </div>
+	<div class="col-md-12 d-flex justify-content-center">
+		<span class="mb-3 mb-md-0 text-body-secondary">Site By: Isaiah Meza</span>
+	  </div>
+	  </div>
+  </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
